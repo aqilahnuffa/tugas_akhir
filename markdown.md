@@ -1,7 +1,7 @@
 ## **Setup Environment**
 ```
-pip install pipenv
-pipenv shell
+python -m venv main-ds
+main-ds\Scripts\activate
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 
@@ -11,4 +11,4 @@ streamlit run dashboard.py
 ```
 
 ## **Dashboar URL Link**
-http://localhost:8501/
+https://tugas-akhir-ds.streamlit.app/
